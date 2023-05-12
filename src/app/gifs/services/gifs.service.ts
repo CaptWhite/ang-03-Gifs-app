@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { SearchResponse, Gif } from '../interfaces/gifs.interfaces';
-
+const a = 1
 
 @Injectable({ providedIn: 'root' })
 export class GifsService {
