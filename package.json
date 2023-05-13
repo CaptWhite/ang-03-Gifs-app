@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:href": "ng build --base-href ./",
-    "build:github": "if (Test-Path \"dist\") { Remove-Item \"dist\" -Force} && npm run build:href && xcopy /E /i dist\\gifs-app  docs "
+    "build:github": "rmdir /S /Q docs && npm run build:href && xcopy /E /i dist\\gifs-app docs"
   },
   "private": true,
   "dependencies": {
