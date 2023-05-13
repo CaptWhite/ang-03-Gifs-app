@@ -51,7 +51,7 @@ export class GifsService {
     if ( tag.length === 0 ) return;
     this.organizeHistory(tag);
 
-    console.log('APIKET = ' + this.apiKey)
+    console.log('APIKEY = ' + this.apiKey)
     const params = new HttpParams()
       .set('api_key', this.apiKey )
       .set('limit', '10' )
